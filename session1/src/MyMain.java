@@ -39,8 +39,15 @@ public class MyMain {
         short s = 10;
 //        int a = 10;
         long l = 10l;
-        float f = 10.0f;
-        double d = 10.0d;
+        float f = .5f;
+        double d = 10.0f;
+
+        // [-128, 127] -> [0, 255]
+
+        System.out.println("My short value is " + s);
+        System.out.println("My long value is " + l);
+        System.out.println("My float value is " + f);
+        System.out.println("My double value is " + d);
 
     }
 
