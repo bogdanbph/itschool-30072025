@@ -25,6 +25,7 @@ public class Main {
         System.out.println(localDate);
         System.out.println(copyOfLocalDate);
 
+
         WeekDay weekDay = WeekDay.SATURDAY;
         System.out.println(weekDay);
 
